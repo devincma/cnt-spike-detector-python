@@ -1,30 +1,7 @@
 # This file should not use pandas
 
 import numpy as np
-from scipy.signal import butter, filtfilt, iirnotch, hilbert
-
-
-def calculate_synchrony(time_series):
-    """
-    Calculate the Kuramoto order parameter for a set of time series
-    Args:
-        time_series (np.array): 2D array where each row is a time series
-    Returns:
-        np.array: Kuramoto order parameter for each time point
-    """
-    # Extract the number of time series and the number of time points
-    N, _ = time_series.shape
-    # Apply the Hilbert Transform to get an analytical signal
-    analytical_signals = hilbert(time_series)
-    assert analytical_signals.shape == time_series.shape
-    # Extract the instantaneous phase for each time series using np.angle
-    phases = np.angle(analytical_signals, deg=False)
-    assert phases.shape == time_series.shape
-    # Compute the Kuramoto order parameter for each time point
-    # 1j*1j == -1
-    r_t = np.abs(np.sum(np.exp(1j * phases), axis=0)) / N
-    R = np.mean(r_t)
-    return r_t, R
+from scipy.signal import butter, filtfilt, iirnotch
 
 
 def notch_filter(data, low_cut, high_cut, fs, order=4):
