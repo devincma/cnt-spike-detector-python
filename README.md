@@ -1,6 +1,6 @@
 # Interictal Spike Detector
 
-This is the Python implementation of the interictal spike detector created by Dr. Erin Conrad at Center for Neuroengineering and Theraputics at University of Pennsylvania. Interictal spikes are important in epileptogenesis. However, detection of these spikes is a non-trivial engineering challenge.
+This is the Python implementation of the interictal spike detector created by [Dr. Erin Conrad](https://www.med.upenn.edu/apps/faculty/index.php/g324/p8590351) at [Center for Neuroengineering and Theraputics](https://cnt.upenn.edu/) at University of Pennsylvania. Interictal spikes are important in epileptogenesis. However, detection of these spikes is a non-trivial engineering challenge.
 
 ## Features
 
