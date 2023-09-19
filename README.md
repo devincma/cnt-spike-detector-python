@@ -18,6 +18,10 @@ The main spike detector is implemented in the `spike_detector.py` file. Other Py
 
 Devin Ma <devinma@alumni.upenn.edu>
 
+## Acknowledgement
+
+I thank Carlos Aguilla, Nina Ghosn, Alfredo Lucas, Will Ojemann, Dr. Erin Conrad, and Dr. Brian Litt for their help.
+
 ## Related Publications
 
 - Conrad EC, Revell AY, Greenblatt AS, Gallagher RS, Pattnaik AR, Hartmann N, Gugger JJ, Shinohara RT, Litt B, Marsh ED, Davis KA. Spike patterns surrounding sleep and seizures localize the seizure-onset zone in focal epilepsy. Epilepsia. 2023 Mar;64(3):754-768. doi: 10.1111/epi.17482. Epub 2023 Jan 14. PMID: 36484572; PMCID: PMC10045742. [LINK TO PAPER](https://onlinelibrary.wiley.com/doi/10.1111/epi.17482)
