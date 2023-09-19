@@ -17,3 +17,9 @@ The main spike detector is implemented in the `spike_detector.py` file. Other Py
 ## Contact
 
 Devin Ma <devinma@alumni.upenn.edu>
+
+## Related Publications
+
+- Conrad EC, Revell AY, Greenblatt AS, Gallagher RS, Pattnaik AR, Hartmann N, Gugger JJ, Shinohara RT, Litt B, Marsh ED, Davis KA. Spike patterns surrounding sleep and seizures localize the seizure-onset zone in focal epilepsy. Epilepsia. 2023 Mar;64(3):754-768. doi: 10.1111/epi.17482. Epub 2023 Jan 14. PMID: 36484572; PMCID: PMC10045742. [LINK TO PAPER](https://onlinelibrary.wiley.com/doi/10.1111/epi.17482)
+
+- Conrad EC, Tomlinson SB, Wong JN, Oechsel KF, Shinohara RT, Litt B, Davis KA, Marsh ED. Spatial distribution of interictal spikes fluctuates over time and localizes seizure onset. Brain. 2020 Feb 1;143(2):554-569. doi: 10.1093/brain/awz386. PMID: 31860064; PMCID: PMC7537381. [LINK TO PAPER](https://academic.oup.com/brain/article/143/2/554/5682483)
